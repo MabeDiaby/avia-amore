@@ -71,3 +71,17 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+
+@media screen and (max-width: 768px) {
+  .airplane-card {
+    width: fit-content;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  header {
+    display: inline-block;
+  }
+}
